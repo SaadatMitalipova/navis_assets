@@ -1,0 +1,7 @@
+.partners{
+    padding-top: 100px;
+}
+.partners__content{
+    display: flex;
+    gap: 120px;
+}
