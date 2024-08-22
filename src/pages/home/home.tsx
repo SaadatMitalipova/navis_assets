@@ -1,5 +1,6 @@
 // import ".";
 
+import Advantage from "../../components/advantage/advantage";
 import Header from "../../components/header/header";
 import HeroSection from "../../components/heroSection/heroSection";
 import Partners from "../../components/partners/partners";
@@ -11,6 +12,7 @@ function Home() {
       <hr />
       <HeroSection/>
       <Partners/>
+      <Advantage/>
     </>
   );
 }
