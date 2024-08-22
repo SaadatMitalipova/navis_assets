@@ -1,8 +1,6 @@
-/* .services__content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+.services{
+    padding-top: 100px;
+}
 .services-blocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
