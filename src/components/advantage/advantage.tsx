@@ -4,7 +4,7 @@ function Advantage() {
     <section className="advantage">
       <div className="container">
         <div className="advantage__content">
-          <h2 className="advantage-title">Почему выбирают Navis Asset?</h2>
+          <h2 className="titles">Почему выбирают Navis Asset?</h2>
           <div className="divs">
             <div className="unlock-wallet">
               <span className="unlock-wallet-text">

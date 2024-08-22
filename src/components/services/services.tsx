@@ -10,7 +10,7 @@ function Services() {
     <section className="services">
       <div className="container">
         <div className="services__content">
-          <h2 className="advantage-title">Мы поможем вам, если</h2>
+          <h2 className="titles">Мы поможем вам, если</h2>
           <div className="services-blocks">
             <div className="block block-orange">
               <img src={key} alt="" className="block-icon" />

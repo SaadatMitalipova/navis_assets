@@ -1,0 +1,32 @@
+.quations-section {
+  padding-top: 100px;
+}
+.quations__content {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.quation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  gap: 220px;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.quation-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.quation-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6f6f6f;
+  line-height: 24.2px;
+}
+.quation-icon {
+  width: 60px;
+  height: 60px;
+}
