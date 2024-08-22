@@ -2,6 +2,7 @@
 
 import Header from "../../components/header/header";
 import HeroSection from "../../components/heroSection/heroSection";
+import Partners from "../../components/partners/partners";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Header />
       <hr />
       <HeroSection/>
+      <Partners/>
     </>
   );
 }
