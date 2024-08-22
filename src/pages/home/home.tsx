@@ -1,9 +1,13 @@
 // import ".";
 
+import Header from "../../components/header/header";
+
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default Home
+export default Home;
