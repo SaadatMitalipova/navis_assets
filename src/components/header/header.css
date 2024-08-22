@@ -7,13 +7,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 120px;
-  border: #000000 2px;
+  gap: 180px;
 }
 
 .header__nav {
   display: flex;
-  gap: 40px;
+  gap: 70px;
   align-items: center;
 }
 
