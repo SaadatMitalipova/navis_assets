@@ -32,30 +32,38 @@ function QuestionPage() {
               </div>
               <img className="question-icon" src={minus} alt="" />
             </div>
+            <div className="ruler-question"></div>
             <div className="question">
               <h4 className="question-title">
                 Я должен ли вам сказать свой пароль полностью?
               </h4>
               <img className="question-icon" src={plus} alt="" />
             </div>
+            <div className="ruler-question"></div>
+
             <div className="question">
               <h4 className="question-title">
                 Сколько времени занимает восстановление кошелька?
               </h4>
               <img className="question-icon" src={plus} alt="" />
             </div>
+            <div className="ruler-question"></div>
+
             <div className="question">
               <h4 className="question-title">
                 Как я могу вам довериться, вы не украдете мои деньги?
               </h4>
               <img className="question-icon" src={plus} alt="" />
             </div>
+            <div className="ruler-question"></div>
+
             <div className="question">
               <h4 className="question-title">
                 Какие виды криптовалютных кошельков вы восстановливаете?
               </h4>
               <img className="question-icon" src={plus} alt="" />
             </div>
+            <div className="ruler-question"></div>
           </div>
         </div>
       </div>

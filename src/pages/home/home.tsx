@@ -1,6 +1,7 @@
 // import ".";
 
 import Advantage from "../../components/advantage/advantage";
+import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 import HeroSection from "../../components/heroSection/heroSection";
 import News from "../../components/newsPage/news";
@@ -19,6 +20,7 @@ function Home() {
       <Services />
       <QuestionPage />
       <News />
+      <Footer/>
     </>
   );
 }

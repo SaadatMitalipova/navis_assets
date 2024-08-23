@@ -13,10 +13,15 @@
   padding: 0 80px;
   gap: 220px;
   align-items: center;
-  border-bottom: 1px solid #d8d8d8;
 }
 .first-question{
   padding-bottom: 20px;
+}
+.ruler-question{
+  background-color: #D8D8D8;
+  height: 2px;
+  width: 1230px;
+  margin-left: 80px;
 }
 .question-title {
   font-size: 30px;
