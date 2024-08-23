@@ -1,6 +1,7 @@
 .news-section {
   padding-top: 100px;
 }
+
 .news {
   display: flex;
   flex-direction: row;
@@ -12,7 +13,7 @@
   flex-direction: column;
   gap: 10px;
 }
-.news-list{
+.news-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -32,7 +33,7 @@
   gap: 40px;
   align-items: self-end;
 }
-.info-news{
+.info-news {
   padding-right: 100px;
 }
 
@@ -43,4 +44,50 @@
 .img-news {
   width: 115px;
   height: 115px;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+.deatail {
+  background-color: white;
+}
+.ourWallet {
+  background: linear-gradient(135deg, #d4151c, #d35400);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 285px;
+}
+.ourWallet-titles {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+  padding-left: 52px;
+}
+.our-wallet {
+  width: 299.5px;
+  height: 299.5px;
+  /* padding-top: 134px; */
+}
+.textBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  gap: 20px;
+padding-top: 60px;
+padding-right: 40px;}
+.ourWallet-texts {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+  color: #f5f7fa;
+}
+.white-btn2 {
+  border: none;
+  background-color: white;
+  color: #000;
 }
