@@ -1,21 +1,21 @@
-import "./quationsPage.css";
+import "./questionPage.css";
 import minus from "../images/mines.png";
 import plus from "../images/plus.png";
 
-function QuationPage() {
+function QuestionPage() {
   return (
-    <section className="quations-section">
+    <section className="questions-section">
       <div className="container">
-        <div className="quations__content">
+        <div className="questions__content">
           <h2 className="titles">
             Ответы на часто <br />
             задаваемые вопросы
           </h2>
-          <div className="quations">
-            <div className="quation">
-              <div className="first-quation">
-                <h4 className="quation-title">Как это все работает?</h4>
-                <span className="quation-text">
+          <div className="questions">
+            <div className="question">
+              <div className="first-question">
+                <h4 className="question-title">Как это все работает?</h4>
+                <span className="question-text">
                   Методы, которые мы используем для восстановления учетных
                   записей наших клиентов, <br />
                   сильно различаются в зависимости от конкретного случая. В
@@ -30,31 +30,31 @@ function QuationPage() {
                   правильный пароль.
                 </span>
               </div>
-              <img className="quation-icon" src={minus} alt="" />
+              <img className="question-icon" src={minus} alt="" />
             </div>
-            <div className="quation">
-              <h4 className="quation-title">
+            <div className="question">
+              <h4 className="question-title">
                 Я должен ли вам сказать свой пароль полностью?
               </h4>
-              <img className="quation-icon" src={plus} alt="" />
+              <img className="question-icon" src={plus} alt="" />
             </div>
-            <div className="quation">
-              <h4 className="quation-title">
+            <div className="question">
+              <h4 className="question-title">
                 Сколько времени занимает восстановление кошелька?
               </h4>
-              <img className="quation-icon" src={plus} alt="" />
+              <img className="question-icon" src={plus} alt="" />
             </div>
-            <div className="quation">
-              <h4 className="quation-title">
+            <div className="question">
+              <h4 className="question-title">
                 Как я могу вам довериться, вы не украдете мои деньги?
               </h4>
-              <img className="quation-icon" src={plus} alt="" />
+              <img className="question-icon" src={plus} alt="" />
             </div>
-            <div className="quation">
-              <h4 className="quation-title">
+            <div className="question">
+              <h4 className="question-title">
                 Какие виды криптовалютных кошельков вы восстановливаете?
               </h4>
-              <img className="quation-icon" src={plus} alt="" />
+              <img className="question-icon" src={plus} alt="" />
             </div>
           </div>
         </div>
@@ -63,4 +63,4 @@ function QuationPage() {
   );
 }
 
-export default QuationPage;
+export default QuestionPage;
