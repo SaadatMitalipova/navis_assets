@@ -1,7 +1,7 @@
 import "./heroSection.css";
 import wallet from "../images/walletImg.png";
-
 import vectorBtn from "../images/Icon.png";
+
 function HeroSection() {
   return (
     <section className="hero">

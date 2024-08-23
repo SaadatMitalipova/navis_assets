@@ -4,6 +4,8 @@ import pink from "../images/pink.png";
 import money from "../images/money.png";
 import bImg from "../images/bImg.png";
 import vector from "../images/icon.png";
+import vectorBtn from "../images/Icon.png";
+import wallet from "../images/walletImg.png";
 
 function News() {
   return (
@@ -73,6 +75,28 @@ function News() {
                 </div>
                 <img src={vector} alt="" className="news-vectorIcon" />
               </div>
+            </div>
+          </div>
+          <div className="details">
+            <button className="hero-btn white-btn deatail">
+              Подробнее
+              <img src={vectorBtn} alt="" />{" "}
+            </button>
+          </div>
+          <div className="ourWallet">
+            <h2 className="ourWallet-titles">
+              Ваши деньги <br />
+              обратно в вашем <br />
+              кармане!
+            </h2>
+            <img src={wallet} alt="" className="our-wallet" />
+            <div className="textBtn">
+              <span className="ourWallet-texts">
+                Возьми свои финансы снова
+                <br /> под контроль. Нажми на <br /> "Оставить заявку", чтобы
+                <br /> получить помощь.
+              </span>
+              <button className="hero-btn white-btn2">Оставить заявку</button>
             </div>
           </div>
         </div>
